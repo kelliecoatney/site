@@ -1,0 +1,91 @@
+* {
+    font-family: impact, monospace,;
+}
+   
+
+
+body { 
+        background-color: rgb(203, 254, 235);
+        color: rgb(48,60,97);
+}
+
+/*
+.header { 
+        text-align: center;
+        color:rgb(132,81,160);
+        background-color: rgb(106,199,185);
+        padding: 20px;
+    } */
+
+
+
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(78,65,119);
+    text-align: right; 
+    padding: 10px 20px;
+    text-decoration-color:rgb(106,199,185); 
+    font-family: impact;
+    font-size: 2em;
+}
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: rgb(230, 230, 230);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:none;
+}
+.topnav a:link {
+  color:rgb(230, 255, 255);
+}
+.topnav a:visited {
+  color: rgb(106,199,185);
+}
+.topnav a:hover {
+  background-color:rgba(106,199,185,.7);
+  color: rgb(230, 255, 255);
+}
+.topnav a:active {
+  color:rgb(106,199,185);
+  background-color:rgba(106,199,185,.7);
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+
+.container {
+    width: 1380px;
+    margin: auto; 
+    
+    
+}
+
+h3{
+    font-family: impact;
+    font-size: 1.5em;
+    padding: 0 20px;
+}
+
+
+img { 
+        padding: 20px;
+
+}
+
+ p {
+        padding: 0 20px;
+        font-family: courier new;
+        font-weight: 600;
+        width: 1380px
+} 
