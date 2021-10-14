@@ -1,0 +1,578 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Gloria+Hallelujah&display=swap');
+
+/*
+font-family: 'Architects Daughter', cursive;  --- neater
+font-family: 'Gloria Hallelujah', cursive;  --- messier
+*/
+
+/*
+rgb(203, 254, 235)
+rgb(48, 60, 97)
+rgb(78, 65, 119)
+rgb(106, 199, 185)
+rgb(230, 255, 255)
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+
+@media screen and (min-width:1221px){
+
+body{
+    background-color: rgb(78, 65, 119);
+    background-image: url(imgs/youtube-autoplay.png);
+    background-repeat: repeat;
+
+    
+}
+
+.site {
+    vertical-align: middle;
+}
+
+h1{
+    text-align: center;
+font-family: 'Gloria Hallelujah', cursive;
+}
+
+.header {
+  background-color: rgba(6, 95, 215,0.9);
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+p{
+    font-family: 'Gloria Hallelujah', cursive;
+    color: rgba(0,0,0,1);
+    background-color: white;
+    font-weight: 900;
+    font-size: 1.5em;
+    margin: auto;
+}
+
+
+
+
+
+
+.grid-container {
+  display: grid;
+    width: 100%;
+margin: auto;
+}
+
+
+.left{
+    grid-row: 1;
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+}
+
+.right{
+    grid-row: 1;
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+.top{
+    position: absolute;
+    padding-left: 5%; 
+    z-index:3;
+margin: auto;
+    padding-top: 5%;
+
+}
+.top2{
+    position: absolute;
+    padding-left: 10%;
+    padding-top: 0;
+    z-index: 2;
+    padding-top: 15%;
+    
+}
+
+.top3{
+        position: absolute;
+    padding-left: 50%;
+    padding-top: 0;
+    z-index: 2;
+    padding-top: 20%;
+    
+}
+
+.top4{
+        position: absolute;
+
+    z-index:2;
+    padding-top:60%;
+    margin: auto;
+    padding-left: 50%
+}
+.top5{
+        position: absolute;
+    padding-left: 5%;
+    padding-top: 0;
+    z-index: 3;
+    padding-top: 20%;
+}
+.top6{
+        position: absolute;
+    padding-left: 45%;
+    padding-top: 0;
+    z-index: 2;
+    padding-top: 70%;
+}
+.top7{
+        position: absolute;
+    padding-left: 65%;
+    padding-top: 0;
+    z-index:1;
+    padding-top: 4%;
+}
+.top8{
+        position: absolute;
+    padding-left: 15%;
+    padding-top: 0;
+    z-index: 1;
+    padding-top: 75%;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+a:link {
+  color:rgba(120,220,140,.9);
+  background-color: transparent;
+  text-decoration: none;
+        font-family: 'Gloria Hallelujah', cursive;
+    color: rgba(120,220,140,.9);
+    font-weight: 900;
+    font-size: 1em;
+    text-indent: 5%;
+}
+
+a:visited {
+  color: rgba(120,220,140,.9);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(120,220,140,.9);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgba(120,220,140,.9);
+  background-color: transparent;
+  text-decoration: none;
+}    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1220px){
+    
+    body{
+    background-color: rgb(78, 65, 119);
+    background-image: url(imgs/youtube-autoplay.png);
+    background-repeat: repeat;
+
+    
+}
+
+.site {
+    vertical-align: middle;
+}
+
+h1{
+    text-align: center;
+font-family: 'Gloria Hallelujah', cursive;
+}
+
+.header {
+  background-color: rgba(6, 95, 215,0.9);
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+p{
+    font-family: 'Gloria Hallelujah', cursive;
+    color: rgba(0,0,0,1);
+    background-color: white;
+    font-weight: 900;
+    font-size: 1.5em;
+    margin: auto;
+}
+
+
+
+
+
+
+.grid-container {
+  display: grid;
+    width: 100%;
+margin: auto;
+}
+
+
+.left{
+    grid-row: 1;
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+}
+
+.right{
+    grid-row: 1;
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+.top{
+    position: absolute;
+    padding-left: 5%; 
+    z-index:3;
+margin: auto;
+    padding-top: 5%;
+
+}
+.top2{
+    position: absolute;
+    padding-left: 10%;
+    padding-top: 0;
+    z-index: 2;
+    padding-top: 15%;
+    
+}
+
+.top3{
+        position: absolute;
+    padding-left: 50%;
+    padding-top: 0;
+    z-index: 2;
+    padding-top: 20%;
+    
+}
+
+.top4{
+        position: absolute;
+
+    z-index:2;
+    padding-top:55%;
+    margin: auto;
+    padding-left: 50%
+}
+.top5{
+        position: absolute;
+    padding-left: 5%;
+    padding-top: 0;
+    z-index: 3;
+    padding-top: 20%;
+}
+.top6{
+        position: absolute;
+    padding-left: 45%;
+    padding-top: 0;
+    z-index: 2;
+    padding-top: 70%;
+}
+.top7{
+        position: absolute;
+    padding-left: 65%;
+    padding-top: 0;
+    z-index:1;
+    padding-top: 4%;
+}
+.top8{
+        position: absolute;
+    padding-left: 15%;
+    padding-top: 0;
+    z-index: 1;
+    padding-top: 75%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+a:link {
+  color:rgba(120,220,140,.9);
+  background-color: transparent;
+  text-decoration: none;
+        font-family: 'Gloria Hallelujah', cursive;
+    color: rgba(120,220,140,.9);
+    font-weight: 900;
+    font-size: 1em;
+    text-indent: 5%;
+}
+
+a:visited {
+  color: rgba(120,220,140,.9);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(120,220,140,.9);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgba(120,220,140,.9);
+  background-color: transparent;
+  text-decoration: none;
+}   
+}
+
+
+@media screen and (max-width:970px){
+    
+        body{
+    background-color: rgb(78, 65, 119);
+    background-image: url(imgs/youtube-autoplay.png);
+    background-repeat: repeat;
+
+    
+}
+
+.site {
+    vertical-align: middle;
+}
+
+h1{
+    text-align: center;
+font-family: 'Gloria Hallelujah', cursive;
+}
+
+.header {
+  background-color: rgba(6, 95, 215,0.9);
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+p{
+    font-family: 'Gloria Hallelujah', cursive;
+    color: rgba(0,0,0,1);
+    background-color: white;
+    font-weight: 900;
+    font-size: 1.5em;
+    margin: auto;
+}
+
+
+
+
+
+
+.grid-container {
+  display: grid;
+    width: 100%;
+margin: auto;
+}
+
+
+.left{
+    grid-row: 1;
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+}
+
+.right{
+    grid-row: 1;
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+.top{
+    position: absolute;
+    padding-left: 5%; 
+    z-index:3;
+margin: auto;
+    padding-top: 5%;
+
+}
+.top2{
+    position: absolute;
+    padding-left: 10%;
+    padding-top: 0;
+    z-index: 2;
+    padding-top: 15%;
+    
+}
+
+.top3{
+        position: absolute;
+    padding-left: 50%;
+    padding-top: 0;
+    z-index: 2;
+    padding-top: 20%;
+    
+}
+
+.top4{
+        position: absolute;
+
+    z-index:2;
+    padding-top:85%;
+    margin: auto;
+    padding-left: 50%
+}
+.top5{
+        position: absolute;
+    padding-left: 5%;
+    padding-top: 0;
+    z-index: 1;
+    padding-top: 90%;
+}
+.top6{
+        position: absolute;
+    padding-left: 45%;
+    padding-top: 0;
+    z-index: 2;
+    padding-top: 140%;
+}
+.top7{
+        position: absolute;
+    padding-left: 65%;
+    padding-top: 0;
+    z-index:1;
+    padding-top: 90%;
+}
+.top8{
+        position: absolute;
+    padding-left: 15%;
+    padding-top: 0;
+    z-index: 1;
+    padding-top: 75%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+a:link {
+  color:rgba(120,220,140,.9);
+  background-color: transparent;
+  text-decoration: none;
+        font-family: 'Gloria Hallelujah', cursive;
+    color: rgba(120,220,140,.9);
+    font-weight: 900;
+    font-size: 1em;
+    text-indent: 5%;
+}
+
+a:visited {
+  color: rgba(120,220,140,.9);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(120,220,140,.9);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgba(120,220,140,.9);
+  background-color: transparent;
+  text-decoration: none;
+}   
+}

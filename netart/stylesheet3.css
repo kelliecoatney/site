@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Gloria+Hallelujah&display=swap');
+
+/*
+font-family: 'Architects Daughter', cursive;  --- neater
+font-family: 'Gloria Hallelujah', cursive;  --- messier
+*/
+
+/*
+rgb(203, 254, 235)
+rgb(48, 60, 97)
+rgb(78, 65, 119)
+rgb(106, 199, 185)
+rgb(230, 255, 255)
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(78, 65, 119);
+    background-image: url(imgs/acrylicpour-bg-60.jpg);
+    background-repeat: repeat;
+
+    
+}
+
+.site {
+    vertical-align: middle;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.header {
+  background-color: rgba(106, 199, 185,0.7);
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+
+
+p{
+font-family: 'Architects Daughter', cursive;
+    color: rgba(0,0,0,1);
+    background: rgba(255,255,255,1);
+    font-weight: 900;
+    font-size: 1.5em;
+    width: 75%;
+    margin: auto;
+    text-indent: 30%;
+}
+
+
+
+
+.grid-container {
+  display: grid;
+    width: 100%;
+margin: auto;
+}
+
+
+.middle3{
+    grid-row: 1;
+    width: 75%;
+    position: relative;
+    margin: auto;
+    z-index: 2;
+}
+
+
+
+.top{
+    position: absolute;
+    padding-left: 5%; 
+    z-index: 5;
+margin: auto;
+    padding-top: 30%;
+}
+
+.top2{
+    position: absolute;
+    padding-left: 65%;
+    z-index: 3;
+    padding-top: 20%;
+}
+
+.top3{
+        position: absolute;
+    padding-left: 45%;
+    z-index: 3;
+    padding-top: 50%;
+}
+
+.top4{
+        position: absolute;
+    padding-left: 25%;
+    z-index: 4;
+    padding-top: 65%;
+}
+
+
+
+a:link {
+  background-color: transparent;
+  text-decoration: none;
+        font-family: 'Gloria Hallelujah', cursive;
+    color:rgba(106, 199, 185,0.7);
+    font-weight: 900;
+    font-size: 1em;
+    text-indent: 5%;
+}
+
+a:visited {
+  color: rgba(106, 199, 185,0.7);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(106, 199, 185,0.7);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgba(106, 199, 185,0.7);
+  background-color: transparent;
+  text-decoration: none;
+}    
